@@ -1,8 +1,7 @@
-# News App Example
+# pruefung-maltevogt-dekra
 
-## Usage
+## Start in terminal
 
-- Build images: `$ docker-compose build`
 - Run containers: `$ docker-compose up -d`
 - Open http://localhost in browser
 - Stop containers: `$ docker-compose stop`
@@ -17,10 +16,19 @@
 - Windows - Host: 192.168.99.100, User: db, Password: db: Database: db
 - macOS - Host: 127.0.0.1, User: db, Password: db: Database: db
 
-## Command Line Helpers
+## Usage
 
-- Jump to user directory: `$ cd`
-- Jump to subfolder: `$ cd subfolder/`
-- Jump backwards: `$ cd ..`
-- Show current directory: `$ pwd`
-- List files and folders in current directory: `ls`
+### Main menu:
+- CMS: Home
+- Kundendaten: Create, edit or delete costumer-data
+- Kunden-Kategorien: Create, edit or delete costumer-categories
+
+### Steps:
+- Go on (http://localhost/kundenkategorie.php)
+- Create customer-categories by clicking "Anlegen" (ID will be selected automatically)
+- Edit or Delete customer-categories if needed by clicking "Bearbeiten" or "Löschen"
+- Go on (http://localhost/index.php)
+- Create a new customer-data-file by clicking "Anlegen"
+- Fill in all fields and select a category you created earlier
+- Click "Anlegen" to create new data
+- Edit or Delete customer-data if needed by clicking "Bearbeiten" or "Löschen"
